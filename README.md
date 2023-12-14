@@ -25,9 +25,9 @@ Based on the results from our test data, we selected XGBoost as our champion mod
 
 ## Dashboard for Ranked Data ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/))
 Three dashboards are included:
-1. Ranked loan data with key features ([Link Here](https://github.com/s-chadalavada/plodi/))
-2. Slides with more background information and detail ([Link Here](https://github.com/s-chadalavada/plodi/))
-3. Data dictionary ([Link Here](https://github.com/s-chadalavada/plodi/))
+1. Ranked loan data with key features ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/3))
+2. Slides with more background information and detail ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/1))
+3. Data dictionary ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/2))
 
 Github ([Link Here](https://github.com/s-chadalavada/plodi/))
 
