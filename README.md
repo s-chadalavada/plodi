@@ -21,7 +21,7 @@ Secondary Data:
 
 We've included a data dictionary below for reference.
 
-## Modelling & Methodology
+## Modeling & Methodology
 We assume a true fraud rate of 8% as estimates range from $70B-$200B1 of the $1.2T disbursed. All models are trained/tested on 9.4k loans, via downsampling of the non-case related loans, and assumed to be non-suspect. Train and Test split of 80% and 20% respectively. Given prosecuted cases are positive loan labels but remaining loans are unknown status. Therefore we weigh Recall (Sensitivity)  and Negative Predictive Value as primary measures for MVP model selection.
 
 Based on the results from our test data, we selected XGBoost as our champion model as it outperformed relative to our other models (see slides linked below for more detail).
