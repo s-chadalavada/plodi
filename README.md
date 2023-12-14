@@ -9,8 +9,11 @@ In this project we developed machine learning models to identify potentially fra
 
 When using our champion XGBoost model and looking at the most suspicious loans, our model has very strong performance with the top 5-16% of loans getting correctly classified at rates of 98-84% respectively. Given the scale of the PPP loan program and resourcing constraints, machine learning could guide review by providing a ranking.
 
+![alt-text-4](docs/TopN.png)
 
-The most important features for our champion model are implied employee pay measures are the most important with the amount forgiven. Business characteristics play an important role (ex. industry/NAICs, business type, and jobs reported). Gender and race factors also have high importance.
+The most important features for our champion model are implied employee pay measures and location. Implied employee pay as measured by pay ratio is the most important feature while geographic information (cd_cat congressional district and SBA office code) are also highly important.
+
+![alt-text-4](docs/XGB.png)
 
 We see that suspect loans, those associated with an DOJ case, have a higher average pay ration compared to non-suspect loans. Pay Ratio is calculated as average_employee_pay to the average pay by NAICs code and state withthin the CBSA data to allow for pay normalization across geography and industry.
 
