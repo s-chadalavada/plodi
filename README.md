@@ -12,6 +12,9 @@ When using our champion XGBoost model and looking at the most suspicious loans, 
 
 The most important features for our champion model are implied employee pay measures are the most important with the amount forgiven. Business characteristics play an important role (ex. industry/NAICs, business type, and jobs reported). Gender and race factors also have high importance.
 
+We see that suspect loans, those associated with an DOJ case, have a higher average pay ration compared to non-suspect loans. Pay Ratio is calculated as average_employee_pay to the average pay by NAICs code and state withthin the CBSA data to allow for pay normalization across geography and industry.
+
+![alt-text-4](docs/Pay_Ratio.png)
 
 ## Dashboard for Ranked Data ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/))
 Three dashboards are included:
