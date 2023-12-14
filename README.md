@@ -26,12 +26,13 @@ We assume a true fraud rate of 8% as estimates range from $70B-$200B1 of the $1.
 
 Based on the results from our test data, we selected XGBoost as our champion model as it outperformed relative to our other models (see slides linked below for more detail).
 
-## Dashboard for Ranked Data
-Data are below and linked [here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/) and please contact us with any questions or inquiries.
+## Dashboard for Ranked Data ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/))
+Three dashboards are included:
+1. 
 
 ## Team
-This is a project that was completed in Fall 2023 as part of the UC Berkeley MIDS W210 Session 9 Capstone. The team consists of UC Berkeley MIDS students.
+This project was completed in Fall 2023 as part of the UC Berkeley MIDS W210 Session 9 Capstone. The team consists of UC Berkeley the followoing MIDS students from left to right: 
 
-From left to right: Roberto Salvidar - roberto_saldivar@ischool.berkeley.edu, Crystal Chen - crystalqianchen@ischool.berkeley.edu, Mike Varner - mike_varner@ischool.berkeley.edu, and Sridhar Chadalavada - sridhar@ischool.berkeley.edu
+Roberto Salvidar - [roberto_saldivar@ischool.berkeley.edu](roberto_saldivar@ischool.berkeley.edu), Crystal Chen - [crystalqianchen@ischool.berkeley.edu](crystalqianchen@ischool.berkeley.edu), Mike Varner - [mike_varner@ischool.berkeley.edu](mike_varner@ischool.berkeley.edu), and Sridhar Chadalavada - [sridhar@ischool.berkeley.edu](sridhar@ischool.berkeley.edu)
 
 ![alt-text-1](docs/Roberto.png "Roberto Salvidar") ![alt-text-2](docs/Crystal.png "Crystal Chen") ![alt-text-3](docs/Mike.jpeg "Mike Varner") ![alt-text-4](docs/Sridhar.png "Sridhar.png")
