@@ -1,4 +1,4 @@
-# PLODI - Pandemic Loan Outlier Detection and Indicators
+![alt-text-4](docs/image.png)
 
 ## Introduction 
 To support businesses during the COVID-19 pandemic, the US Small Business Administration disbursed $1.2T of loans. However, due to the rapid pace at which loans were processed many instances of fraud have been identified with estimates of fraudulent loans ranging from $100B-$200B ([Link here](https://www.sba.gov/document/report-23-09-covid-19-pandemic-eidl-ppp-loan-fraud-landscape)).
@@ -29,6 +29,8 @@ Based on the results from our test data, we selected XGBoost as our champion mod
 ## Dashboard for Ranked Data ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/))
 Three dashboards are included:
 1. 
+
+Github ([Link Here](https://github.com/s-chadalavada/plodi/))
 
 ## Team
 This project was completed in Fall 2023 as part of the UC Berkeley MIDS W210 Session 9 Capstone. The team consists of UC Berkeley the followoing MIDS students from left to right: 
