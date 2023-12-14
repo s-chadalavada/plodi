@@ -7,9 +7,11 @@ In this project we developed machine learning models to identify potentially fra
 
 ## Results & Impact
 
-When using our champion XGBoost model and looking at the most suspicious loans, our model has very strong performance with the top 5-16% of loans getting correctly classified at rates of 98-84% respectively. Given the scale of the PPP loan program and resourcing constraints, machine learning could guide review by providing a ranking. Something about a cutoff point
+When using our champion XGBoost model and looking at the most suspicious loans, our model has very strong performance with the top 5-16% of loans getting correctly classified at rates of 98-84% respectively. Given the scale of the PPP loan program and resourcing constraints, machine learning could guide review by providing a ranking.
+
 
 The most important features for our champion model are implied employee pay measures are the most important with the amount forgiven. Business characteristics play an important role (ex. industry/NAICs, business type, and jobs reported). Gender and race factors also have high importance.
+
 
 ## Dashboard for Ranked Data ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/))
 Three dashboards are included:
@@ -31,6 +33,9 @@ Secondary Data:
 We assume a true fraud rate of 8% as estimates range from $70B-$200B1 of the $1.2T disbursed. All models are trained/tested on 9.4k loans, via downsampling of the non-case related loans, and assumed to be non-suspect. Train and Test split of 80% and 20% respectively. Given prosecuted cases are positive loan labels but remaining loans are unknown status. Therefore we weigh Recall (Sensitivity)  and Negative Predictive Value as primary measures for MVP model selection.
 
 Based on the results from our test data, we selected XGBoost as our champion model as it outperformed relative to our other models (see slides linked below for more detail).
+
+## Architecture
+
 
 ## Team
 This project was completed in Fall 2023 as part of the UC Berkeley MIDS W210 Session 9 Capstone. The team consists of UC Berkeley the followoing MIDS students from left to right: 
