@@ -21,7 +21,7 @@ We see that suspect loans, those associated with an DOJ case, have a higher aver
 
 ## Dashboard for Ranked Data ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/))
 Three dashboards are included:
-1. Ranked loan data with key features ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/2)). In this dashbord, we provide two rankings suspicion_rank and suspicion_rank_weighted which are derived from the predicted probability of suspicion and the probability of suspicion interacted with the loan amount. We created a weighted ranking to account for differing loan amounts under the theory that regulators may want to focus on higher value loans for the purposes of maximizing recovery.
+1. Ranked loan data with key features ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/3)). In this dashbord, we provide two rankings suspicion_rank and suspicion_rank_weighted which are derived from the predicted probability of suspicion and the probability of suspicion interacted with the loan amount. We created a weighted ranking to account for differing loan amounts under the theory that regulators may want to focus on higher value loans for the purposes of maximizing recovery.
    
 3. Slides with more background information and detail ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/1))
 4. Data dictionary ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/2))
