@@ -7,7 +7,7 @@ In this project we developed machine learning models to identify potentially fra
 
 ## Results & Impact
 
-When using our champion XGBoost model and looking at the most suspicious loans, our model has very strong performance with the top 5-16% of loans getting correctly classified at rates of 98-84% respectively. Given the scale of the PPP loan program and resourcing constraints, machine learning could guide review by providing a ranking.
+When using our champion XGBoost model and looking at the most suspicious loans, our model has very strong performance with the top 5-16% of loans getting correctly classified at rates of 98-89% respectively. Given the scale of the PPP loan program and resourcing constraints, machine learning could guide expert review by providing a ranking.
 
 ![alt-text-4](docs/TopN.png)
 
@@ -21,9 +21,10 @@ We see that suspect loans, those associated with an DOJ case, have a higher aver
 
 ## Dashboard for Ranked Data ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/))
 Three dashboards are included:
-1. Ranked loan data with key features ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/2))
-2. Slides with more background information and detail ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/1))
-3. Data dictionary ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/2))
+1. Ranked loan data with key features ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/2)). In this dashbord, we provide two rankings suspicion_rank and suspicion_rank_weighted which are derived from the predicted probability of suspicion and the probability of suspicion interacted with the loan amount. We created a weighted ranking to account for differing loan amounts under the theory that regulators may want to focus on higher value loans for the purposes of maximizing recovery.
+   
+3. Slides with more background information and detail ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/1))
+4. Data dictionary ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/2))
 
 Github ([Link Here](https://github.com/s-chadalavada/plodi/)), Dashboard Github ([Link Here](https://github.com/roberto-saldivar/MIDS_210_RS/tree/main))
 
