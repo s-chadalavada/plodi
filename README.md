@@ -32,6 +32,6 @@ Data are below and linked [here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/)
 ## Team
 This is a project that was completed in Fall 2023 as part of the UC Berkeley MIDS W210 Session 9 Capstone. The team consists of UC Berkeley MIDS students.
 
-From left to right: Roberto Salvidar - roberto_saldivar@ischool.berkeley.edu, Crystal Chen - crystalqianchen@ischool.berkeley.edu, Mike Varner - mike_varner@ischool.berkeley.edu, andSridhar Chadalavada - sridhar@ischool.berkeley.edu
+From left to right: Roberto Salvidar - roberto_saldivar@ischool.berkeley.edu, Crystal Chen - crystalqianchen@ischool.berkeley.edu, Mike Varner - mike_varner@ischool.berkeley.edu, and Sridhar Chadalavada - sridhar@ischool.berkeley.edu
 
-![alt-text-1](Roberto.png "Roberto Salvidar") ![alt-text-2](Crystal.png "Crystal Chen") ![alt-text-3](Mike.jpeg "Mike Varner") ![alt-text-4](Sridhar.png "Sridhar.png")
+![alt-text-1](docs/Roberto.png "Roberto Salvidar") ![alt-text-2](docs/Crystal.png "Crystal Chen") ![alt-text-3](docs/Mike.jpeg "Mike Varner") ![alt-text-4](docs/Sridhar.png "Sridhar.png")
