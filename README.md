@@ -1,21 +1,37 @@
 # PLODI - Pandemic Loan Outlier Detection and Indicators
 
+## Introduction 
+To support businesses during the COVID-19 pandemic, the US Small Business Administration disbursed $1.2T of loans. However, due to the rapid pace at which loans were processed many instances of fraud have been identified with estimates of fraudulent loans ranging from $100B-$200B ([Link here](https://www.sba.gov/document/report-23-09-covid-19-pandemic-eidl-ppp-loan-fraud-landscape)).
+
+In this project we developed machine learning models to identify potentially fraudulent PPP loans, pinpointed key fraud risk factors, and ranked all loans based on their risk factors. This ranking can guide further development for identification of fraud indicators and investigation priority for regulatory agencies, guidance for loan screening for future loan programs, and supports open access to government spending for journalists and interested public individuals
+
+## Results & Impact
+
+When using our champion XGBoost model and looking at the most suspicious loans, our model has very strong performance. For the top 5 -16% of loans, we are able to correctly classify 98-84% of suspect loans. Given the scale of the PPP loan program and resourcing, machine learning could guide review by providing a ranking. Something about a cutoff point
+
+
+The most important features for our champion model are implied employee pay measures are the most important with the amount forgiven. Business characteristics play an important role (ex. industry/NAICs, business type, and jobs reported). Gender and race factors also have high importance.
+
+## Data
+Primary Data: 9.1M PPP loans from the SBA ([Link here](https://www.sba.gov/funding-programs/loans/covid-19-relief-options/paycheck-protection-program/ppp-data))
+Secondary Data: 
+* USPS API - To validate applicant’s address under the theory invalid addresses are suspicions (feature engineering)
+* NAICs Codes & CBSA Data - Census data by region and industry to determine normalized implied pay (feature engineering)
+* Case Data - We reviewed and labelled 108 adjudicated DOJ cases. 108 cases. 614 individual and company names yielding 752 unique loans. Assume that a loan is “suspect” if it’s associated with one of the cases (data labelling)
+
+We've included a data dictionary below for reference.
+
+## Modelling & Methodology
+We assume a true fraud rate of 8% as estimates range from $70B-$200B1 of the $1.2T disbursed. All models are trained/tested on 9.4k loans, via downsampling of the non-case related loans, and assumed to be non-suspect. Train and Test split of 80% and 20% respectively. Given prosecuted cases are positive loan labels but remaining loans are unknown status. Therefore we weigh Recall (Sensitivity)  and Negative Predictive Value as primary measures for MVP model selection.
+
+Based on the results from our test data, we selected XGBoost as our champion model as it outperformed relative to our other models (see slides linked below for more detail).
+
+## Dashboard for Ranked Data
+Data are below and linked [here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/) and please contact us with any questions or inquiries.
+
+## Team
 This is a project that was completed in Fall 2023 as part of the UC Berkeley MIDS W210 Session 9 Capstone. The team consists of UC Berkeley MIDS students.
 
-## Background and Goal
-To support businesses during the COVID-19 pandemic, the US Small Business Administration disbursed $1.2T of loans. Due to the rapid pace at which loans were processed, estimates of fraudulent loans range from $100B-$200B.
+From left to right: Roberto Salvidar - roberto_saldivar@ischool.berkeley.edu, Crystal Chen - crystalqianchen@ischool.berkeley.edu, Mike Varner - mike_varner@ischool.berkeley.edu, andSridhar Chadalavada - sridhar@ischool.berkeley.edu
 
-Our project goal was to Identify key fraud risk factors, using machine learning models, and develop a web dashboard that will allow users to review ranking results and explore loan features from our risk assessment analysis. 
-
-This can guide further development for identification of fraud indicators and investigation priority for regulatory agencies, guidance for loan screening for future loan programs, and supports open access to government spending for journalists and interested public individuals
-
-## Instructions for Code and Data Review
-
-Notebooks are divided itno the following and their functions:
-data_preprocessing: This is used to load the initial data sets, perform various data cleaning functions, and produce downsampled model test / train sets.
-nodels_unsupervised:
-models_semisupervised: 
-models_supervised: 
-
-
-test
+![alt-text-1](Roberto.png "Roberto Salvidar") ![alt-text-2](Crystal.png "Crystal Chen") ![alt-text-3](Mike.jpeg "Mike Varner") ![alt-text-4](Sridhar.png "Sridhar.png")
