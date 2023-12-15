@@ -1,5 +1,6 @@
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-toc # To create navigation links within the page
 title: Pandemic Loan Outlier Detection and Indicators (PLODI)
 description: PLODI uses machine learning modelling to identify fraud risk factors and rank loans disbursed as part of the US Small Business Administration"'"s Paycheck Protection Program for investigation.
