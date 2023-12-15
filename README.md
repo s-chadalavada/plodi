@@ -1,6 +1,4 @@
----
-layout: default
----
+
 ![alt-text-4](docs/image.png)
 
 ## Introduction 
