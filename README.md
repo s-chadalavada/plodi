@@ -49,7 +49,7 @@ We leveraged AWS and GCP for data cleaning, modelling, and ranking. We then save
 We’d like to thank Daniel Aranki and Puya Vahabi, our course instructors, for their excellent guidance and feedback throughout the semester. We also want to thank Dakota Sky Potere-Ramos for working with us to identify and mitigate data privacy and ethics risks. Lastly, the authors of [Did FinTech Lenders Facilitate PPP Fraud?](https://onlinelibrary.wiley.com/doi/10.1111/jofi.13209), John M. Griffin, Samuel Kruger, and Prateek Mahajan, as many of our engineered features take inspiration from their work. 
 
 ## Team
-This project was completed in Fall 2023 as part of the UC Berkeley MIDS W210 Session 9 Capstone. The team consists of UC Berkeley the followoing MIDS students from left to right: 
+This project was completed in Fall 2023 as part of the UC Berkeley MIDS W210 Session 9 Capstone. The team consists of the followoing UC Berkeley MIDS students from left to right: 
 
 Roberto Salvidar - [roberto_saldivar@ischool.berkeley.edu](roberto_saldivar@ischool.berkeley.edu), Crystal Chen - [crystalqianchen@ischool.berkeley.edu](crystalqianchen@ischool.berkeley.edu), Mike Varner - [mike_varner@ischool.berkeley.edu](mike_varner@ischool.berkeley.edu), and Sridhar Chadalavada - [sridhar@ischool.berkeley.edu](sridhar@ischool.berkeley.edu)
 
