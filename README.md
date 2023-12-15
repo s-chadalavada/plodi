@@ -45,6 +45,9 @@ Based on the results from our test data, we selected XGBoost as our champion mod
 We leveraged AWS and GCP for data cleaning, modelling, and ranking. We then saved our loan level results to an AWS S3 bucket for our dashbord to easily access. To create our dashboard, we opted for a python based framework called Mercury to query and display our champion model results.
 ![alt-text-4](docs/Arc.png)
 
+## Acknowledgments
+We’d like to thank Daniel Aranki and Puya Vahabi, our course instructors, for their excellent guidance and feedback throughout the semester. We also want to thank Dakota Sky Potere-Ramos for working with us to identify and mitigate data privacy and ethics risks. Lastly, the authors of [Did FinTech Lenders Facilitate PPP Fraud?](https://onlinelibrary.wiley.com/doi/10.1111/jofi.13209), John M. Griffin, Samuel Kruger, and Prateek Mahajan, as many of our engineered features take inspiration from their work. 
+
 ## Team
 This project was completed in Fall 2023 as part of the UC Berkeley MIDS W210 Session 9 Capstone. The team consists of UC Berkeley the followoing MIDS students from left to right: 
 
