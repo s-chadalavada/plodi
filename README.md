@@ -1,6 +1,4 @@
 ---
-layout: default
-toc: true
 ---
 ![alt-text-4](docs/image.png)
 
