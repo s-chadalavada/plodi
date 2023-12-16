@@ -1,12 +1,13 @@
-**[Background](#background)**
-**[Architecture](#architecture)** 
-**[Modeling](#modeling)** 
-**[Results](#results)** 
-**[About Us](#aboutus)**
+**[Background](#background)**    
+**[Architecture](#architecture)**    
+**[Modeling](#modeling)**    
+**[Results](#results)**    
+**[About Us](#aboutus)**    
 
 ![alt-text-4](assets/images/image.png)
 
 ## Background {#background}
+
 To support businesses during the COVID-19 pandemic, the US Small Business Administration disbursed $1.2T of loans which were backed by the US government. Due to the rapid pace at which these loans were processed, many normal risk practices were relaxed, and consequently many instances of fraud have been identified with estimates of fraudulent loans ranging from $100B-$200B ([Link](https://www.sba.gov/document/report-23-09-covid-19-pandemic-eidl-ppp-loan-fraud-landscape)).
 
 In this project, we developed machine learning models to identify risk factors for potentially fraudulent PPP loans and ranked all loans by these risk factors and the potential monetary recovery. This ranking can guide further development for identification of fraud indicators and investigation priority for regulatory agencies, guidance for loan screening for future loan programs, and supports open access to government spending for journalists and interested public individuals
@@ -26,6 +27,7 @@ We see that suspect loans, those associated with an DOJ case, have a higher aver
 ![alt-text-4](assets/images/Pay_Ratio.png)
 
 ## Dashboard for Ranked Loans {#dashboard}
+
 ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/))
 Three dashboards are included:
 1. Ranked loan data with key features ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/3)). In this dashbord, we provide two rankings suspicion_rank and suspicion_rank_weighted which are derived from the predicted probability of suspicion and the probability of suspicion interacted with the loan amount. We created a weighted ranking to account for differing loan amounts under the theory that regulators may want to focus on higher value loans for the purposes of maximizing recovery.
@@ -36,6 +38,7 @@ Three dashboards are included:
 Github ([Link Here](https://github.com/s-chadalavada/plodi/)), Dashboard Github ([Link Here](https://github.com/roberto-saldivar/MIDS_210_RS/tree/main))
 
 ## Data
+
 Primary Data: 9.1M PPP loans from the SBA ([Link here](https://www.sba.gov/funding-programs/loans/covid-19-relief-options/paycheck-protection-program/ppp-data))
 
 Secondary Data: 
