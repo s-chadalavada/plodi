@@ -54,14 +54,11 @@ We leveraged AWS and GCP for data cleaning, modelling, and ranking. We then save
 ## About Us {#aboutus}
 This project was completed in Fall 2023 as part of the UC Berkeley MIDS W210 Session 9 Capstone. The team consists of the followoing UC Berkeley MIDS students
 
-|    |    |
+|     |     |
 |:---:|:---:|
 | <img src="assets/images/Sridhar.png" height="100" alt="Author Image Sridhar Chadalavada"> | <img src="assets/images/Crystal.png" height="100" alt="Author Image Crystal Qian Chen"> | 
-
 | Sridhar Chadalavada  [sridhar@ischool.berkeley.edu](sridhar@ischool.berkeley.edu) | Crystal Chen  [crystalqianchen@ischool.berkeley.edu](crystalqianchen@ischool.berkeley.edu) |
-
 | <img src="assets/images/Roberto.png" height="100" alt="Author Image Roberto Salvidar"> | <img src="assets/images/Mike.jpeg" height="100" alt="Author Image Mike Varner"> |
-
 | Roberto Salvidar  [roberto_saldivar@ischool.berkeley.edu](roberto_saldivar@ischool.berkeley.edu) | Mike Varner  [mike_varner@ischool.berkeley.edu](mike_varner@ischool.berkeley.edu) |
 
 #### Acknowledgments
