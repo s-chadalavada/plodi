@@ -4,7 +4,7 @@
 **[Results](#results)** 
 **[About Us](#aboutus)**
 
-![alt-text-4](docs/image.png)
+![alt-text-4](assets/images/image.png)
 
 ## Background {#background}
 To support businesses during the COVID-19 pandemic, the US Small Business Administration disbursed $1.2T of loans which were backed by the US government. Due to the rapid pace at which these loans were processed, many normal risk practices were relaxed, and consequently many instances of fraud have been identified with estimates of fraudulent loans ranging from $100B-$200B ([Link](https://www.sba.gov/document/report-23-09-covid-19-pandemic-eidl-ppp-loan-fraud-landscape)).
@@ -15,15 +15,15 @@ In this project, we developed machine learning models to identify risk factors f
 
 When using our champion XGBoost model and looking at the most suspicious loans, our model has very strong performance with the top 5-16% of loans getting correctly classified at rates of 98-89% respectively. Given the scale of the PPP loan program and resourcing constraints, machine learning could guide expert review by providing a ranking.
 
-![alt-text-4](docs/TopN.png)
+![alt-text-4](assets/images/TopN.png)
 
 The most important features for our champion model are implied employee pay measures and location. Implied employee pay as measured by pay ratio is the most important feature while geographic information (cd_cat congressional district and SBA office code) are also highly important.
 
-![alt-text-4](docs/XGB.png)
+![alt-text-4](assets/images/XGB.png)
 
 We see that suspect loans, those associated with an DOJ case, have a higher average pay ration compared to non-suspect loans. Pay Ratio is calculated as average_employee_pay to the average pay by NAICs code and state withthin the CBSA data to allow for pay normalization across geography and industry.
 
-![alt-text-4](docs/Pay_Ratio.png)
+![alt-text-4](assets/images/Pay_Ratio.png)
 
 ## Dashboard for Ranked Loans {#dashboard}
 ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/))
@@ -50,14 +50,14 @@ Based on the results from our test data, we selected XGBoost as our champion mod
 
 ## Architecture {#architecture}
 We leveraged AWS and GCP for data cleaning, modelling, and ranking. We then saved our loan level results to an AWS S3 bucket for our dashbord to easily access. To create our dashboard, we opted for a python based framework called [Mercury](https://runmercury.com/) to query and display our champion model results.
-![alt-text-4](docs/Arc.png)
+![alt-text-4](assets/images/Arc.png)
 
 ## About Us {#aboutus}
 This project was completed in Fall 2023 as part of the UC Berkeley MIDS W210 Session 9 Capstone. The team consists of the followoing UC Berkeley MIDS students from left to right: 
 
 Roberto Salvidar - [roberto_saldivar@ischool.berkeley.edu](roberto_saldivar@ischool.berkeley.edu), Crystal Chen - [crystalqianchen@ischool.berkeley.edu](crystalqianchen@ischool.berkeley.edu), Mike Varner - [mike_varner@ischool.berkeley.edu](mike_varner@ischool.berkeley.edu), and Sridhar Chadalavada - [sridhar@ischool.berkeley.edu](sridhar@ischool.berkeley.edu)
 
-![alt-text-1](docs/Roberto.png "Roberto Salvidar") ![alt-text-2](docs/Crystal.png "Crystal Chen") ![alt-text-3](docs/Mike.jpeg "Mike Varner") ![alt-text-4](docs/Sridhar.png "Sridhar.png")
+![alt-text-1](assets/images/Roberto.png "Roberto Salvidar") ![alt-text-2](assets/images/Crystal.png "Crystal Chen") ![alt-text-3](assets/images/Mike.jpeg "Mike Varner") ![alt-text-4](assets/images/Sridhar.png "Sridhar.png")
 
 #### Acknowledgments
 We’d like to thank Daniel Aranki and Puya Vahabi, our course instructors, for their excellent guidance and feedback throughout the semester. We also want to thank Dakota Sky Potere-Ramos for working with us to identify and mitigate data privacy and ethics risks. Lastly, the authors of [Did FinTech Lenders Facilitate PPP Fraud?](https://onlinelibrary.wiley.com/doi/10.1111/jofi.13209), John M. Griffin, Samuel Kruger, and Prateek Mahajan, as many of our engineered features take inspiration from their work. 
