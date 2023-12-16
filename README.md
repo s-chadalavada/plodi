@@ -61,6 +61,13 @@ Roberto Salvidar - [roberto_saldivar@ischool.berkeley.edu](roberto_saldivar@isch
 <img src="assets/images/Roberto.png" height="100" alt="Author Image Roberto Salvidar">
 <img src="assets/images/Mike.jpeg" height="100" alt="Author Image Mike Varner">
 
+|              |  |  |
+|:--------------|:-----:|:-----------|
+| <img src="assets/images/Sridhar.png" height="100" alt="Author Image Sridhar Chadalavada"> | Roberto Salvidar | [roberto_saldivar@ischool.berkeley.edu](roberto_saldivar@ischool.berkeley.edu) |
+| <img src="assets/images/Crystal.png" height="100" alt="Author Image Crystal Qian Chen"> | 1.89 |          6 |
+| <img src="assets/images/Roberto.png" height="100" alt="Author Image Roberto Salvidar"> | 1.89 |          6 |
+| <img src="assets/images/Mike.jpeg" height="100" alt="Author Image Mike Varner"> | 1.89 |          6 |
+
 ![alt-text-1](assets/images/Roberto.png "Roberto Salvidar") ![alt-text-2](assets/images/Crystal.png "Crystal Chen") ![alt-text-3](assets/images/Mike.jpeg "Mike Varner") ![alt-text-4](assets/images/Sridhar.png "Sridhar.png")
 
 #### Acknowledgments
