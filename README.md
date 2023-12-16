@@ -1,14 +1,15 @@
+***[Background](#background)*** 
+***[Architecture](#architecture)*** 
+***[Modeling](#modeling)*** 
+***[Results](#results)*** 
+***[About Us](#aboutus)***
 
 ![alt-text-4](docs/image.png)
-[Background](#background)
-[Architecture](#architecture)
-[Modeling](#modeling)
-[Results](#results)
-[About Us](#aboutus)
-## Background {#background}
-To support businesses during the COVID-19 pandemic, the US Small Business Administration disbursed $1.2T of loans which were backed by the US government. Due to the rapid pace at which these loans were processed many normal risk practices were relaxed and consequently many instances of fraud have been identified with estimates of fraudulent loans ranging from $100B-$200B ([Link here](https://www.sba.gov/document/report-23-09-covid-19-pandemic-eidl-ppp-loan-fraud-landscape)).
 
-In this project, we developed machine learning models to identify potentially fraudulent PPP loans, pinpointed key fraud risk factors, and ranked all loans based on their risk factors. This ranking can guide further development for identification of fraud indicators and investigation priority for regulatory agencies, guidance for loan screening for future loan programs, and supports open access to government spending for journalists and interested public individuals
+## Background {#background}
+To support businesses during the COVID-19 pandemic, the US Small Business Administration disbursed $1.2T of loans which were backed by the US government. Due to the rapid pace at which these loans were processed, many normal risk practices were relaxed, and consequently many instances of fraud have been identified with estimates of fraudulent loans ranging from $100B-$200B ([Link](https://www.sba.gov/document/report-23-09-covid-19-pandemic-eidl-ppp-loan-fraud-landscape)).
+
+In this project, we developed machine learning models to identify risk factors for potentially fraudulent PPP loans and ranked all loans by these risk factors and the potential monetary recovery. This ranking can guide further development for identification of fraud indicators and investigation priority for regulatory agencies, guidance for loan screening for future loan programs, and supports open access to government spending for journalists and interested public individuals
 
 ## Results & Impact {#results}
 
@@ -24,7 +25,7 @@ We see that suspect loans, those associated with an DOJ case, have a higher aver
 
 ![alt-text-4](docs/Pay_Ratio.png)
 
-## Dashboard for Ranked Data {#dashboard}
+## Dashboard for Ranked Loans {#dashboard}
 ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/))
 Three dashboards are included:
 1. Ranked loan data with key features ([Link Here](https://fwgmq3bk6p.us-east-1.awsapprunner.com/app/3)). In this dashbord, we provide two rankings suspicion_rank and suspicion_rank_weighted which are derived from the predicted probability of suspicion and the probability of suspicion interacted with the loan amount. We created a weighted ranking to account for differing loan amounts under the theory that regulators may want to focus on higher value loans for the purposes of maximizing recovery.
@@ -58,5 +59,5 @@ Roberto Salvidar - [roberto_saldivar@ischool.berkeley.edu](roberto_saldivar@isch
 
 ![alt-text-1](docs/Roberto.png "Roberto Salvidar") ![alt-text-2](docs/Crystal.png "Crystal Chen") ![alt-text-3](docs/Mike.jpeg "Mike Varner") ![alt-text-4](docs/Sridhar.png "Sridhar.png")
 
-## Acknowledgments
+#### Acknowledgments
 We’d like to thank Daniel Aranki and Puya Vahabi, our course instructors, for their excellent guidance and feedback throughout the semester. We also want to thank Dakota Sky Potere-Ramos for working with us to identify and mitigate data privacy and ethics risks. Lastly, the authors of [Did FinTech Lenders Facilitate PPP Fraud?](https://onlinelibrary.wiley.com/doi/10.1111/jofi.13209), John M. Griffin, Samuel Kruger, and Prateek Mahajan, as many of our engineered features take inspiration from their work. 
