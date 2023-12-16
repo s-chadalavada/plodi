@@ -1,6 +1,6 @@
 **[Background](#background)**  **[Loan Dashboard](#dashboard)**  **[Architecture](#architecture)**  **[Modeling](#modeling)**  **[Results](#results)**  **[About Us](#aboutus)**
 
-<img src="assets/images/image.png" height="200" alt="PLODI Logo">
+<img src="assets/images/image.png" height="100" alt="PLODI Logo">
 
 ## Background {#background}
 
