@@ -56,7 +56,10 @@ This project was completed in Fall 2023 as part of the UC Berkeley MIDS W210 Ses
 
 Roberto Salvidar - [roberto_saldivar@ischool.berkeley.edu](roberto_saldivar@ischool.berkeley.edu), Crystal Chen - [crystalqianchen@ischool.berkeley.edu](crystalqianchen@ischool.berkeley.edu), Mike Varner - [mike_varner@ischool.berkeley.edu](mike_varner@ischool.berkeley.edu), and Sridhar Chadalavada - [sridhar@ischool.berkeley.edu](sridhar@ischool.berkeley.edu)
 
-<img src="assets/images/Roberto.png" height="200" alt="Author Image">
+<img src="assets/images/Sridhar.png" height="100" alt="Author Image Sridhar Chadalavada">
+<img src="assets/images/Crystal.png" height="100" alt="Author Image Crystal Qian Chen">
+<img src="assets/images/Roberto.png" height="100" alt="Author Image Roberto Salvidar">
+<img src="assets/images/Mike.jpeg" height="100" alt="Author Image Mike Varner">
 
 ![alt-text-1](assets/images/Roberto.png "Roberto Salvidar") ![alt-text-2](assets/images/Crystal.png "Crystal Chen") ![alt-text-3](assets/images/Mike.jpeg "Mike Varner") ![alt-text-4](assets/images/Sridhar.png "Sridhar.png")
 
