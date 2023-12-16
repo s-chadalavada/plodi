@@ -52,30 +52,13 @@ We leveraged AWS and GCP for data cleaning, modelling, and ranking. We then save
 ![alt-text-4](assets/images/Arc.png)
 
 ## About Us {#aboutus}
-This project was completed in Fall 2023 as part of the UC Berkeley MIDS W210 Session 9 Capstone. The team consists of the followoing UC Berkeley MIDS students from left to right: 
 
-Roberto Salvidar - [roberto_saldivar@ischool.berkeley.edu](roberto_saldivar@ischool.berkeley.edu), Crystal Chen - [crystalqianchen@ischool.berkeley.edu](crystalqianchen@ischool.berkeley.edu), Mike Varner - [mike_varner@ischool.berkeley.edu](mike_varner@ischool.berkeley.edu), and Sridhar Chadalavada - [sridhar@ischool.berkeley.edu](sridhar@ischool.berkeley.edu)
-
-<img src="assets/images/Sridhar.png" height="100" alt="Author Image Sridhar Chadalavada">
-<img src="assets/images/Crystal.png" height="100" alt="Author Image Crystal Qian Chen">
-<img src="assets/images/Roberto.png" height="100" alt="Author Image Roberto Salvidar">
-<img src="assets/images/Mike.jpeg" height="100" alt="Author Image Mike Varner">
-
-|                |       | 
+| This project was completed in Fall 2023 as part of the UC Berkeley MIDS W210 Session 9 Capstone. The team consists of the followoing UC Berkeley MIDS students | |                      |
 |:--------------:|:-----:|
 | <img src="assets/images/Sridhar.png" height="100" alt="Author Image Sridhar Chadalavada"> | <img src="assets/images/Crystal.png" height="100" alt="Author Image Crystal Qian Chen"> | 
-| Sridhar Chadalavada - [sridhar@ischool.berkeley.edu](sridhar@ischool.berkeley.edu) | Crystal Chen - [crystalqianchen@ischool.berkeley.edu](crystalqianchen@ischool.berkeley.edu) |
+| Sridhar Chadalavada  [sridhar@ischool.berkeley.edu](sridhar@ischool.berkeley.edu) | Crystal Chen  [crystalqianchen@ischool.berkeley.edu](crystalqianchen@ischool.berkeley.edu) |
 | <img src="assets/images/Roberto.png" height="100" alt="Author Image Roberto Salvidar"> | <img src="assets/images/Mike.jpeg" height="100" alt="Author Image Mike Varner"> |
-| Roberto Salvidar - [roberto_saldivar@ischool.berkeley.edu](roberto_saldivar@ischool.berkeley.edu) | Mike Varner - [mike_varner@ischool.berkeley.edu](mike_varner@ischool.berkeley.edu) |
-
-|              |  |  |
-|:--------------|:-----:|:-----------|
-| <img src="assets/images/Sridhar.png" height="100" alt="Author Image Sridhar Chadalavada"> | Sridhar Chadalavada | [sridhar@ischool.berkeley.edu](sridhar@ischool.berkeley.edu) |
-| <img src="assets/images/Crystal.png" height="100" alt="Author Image Crystal Qian Chen"> | 1.89 |          6 |
-| <img src="assets/images/Roberto.png" height="100" alt="Author Image Roberto Salvidar"> | 1.89 |          6 |
-| <img src="assets/images/Mike.jpeg" height="100" alt="Author Image Mike Varner"> | 1.89 |          6 |
-
-![alt-text-1](assets/images/Roberto.png "Roberto Salvidar") ![alt-text-2](assets/images/Crystal.png "Crystal Chen") ![alt-text-3](assets/images/Mike.jpeg "Mike Varner") ![alt-text-4](assets/images/Sridhar.png "Sridhar.png")
+| Roberto Salvidar  [roberto_saldivar@ischool.berkeley.edu](roberto_saldivar@ischool.berkeley.edu) | Mike Varner  [mike_varner@ischool.berkeley.edu](mike_varner@ischool.berkeley.edu) |
 
 #### Acknowledgments
 We’d like to thank Daniel Aranki and Puya Vahabi, our course instructors, for their excellent guidance and feedback throughout the semester. We also want to thank Dakota Sky Potere-Ramos for working with us to identify and mitigate data privacy and ethics risks. Lastly, the authors of [Did FinTech Lenders Facilitate PPP Fraud?](https://onlinelibrary.wiley.com/doi/10.1111/jofi.13209), John M. Griffin, Samuel Kruger, and Prateek Mahajan, as many of our engineered features take inspiration from their work. 
