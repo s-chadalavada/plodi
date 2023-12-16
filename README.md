@@ -1,4 +1,6 @@
-<img src="assets/images/image.png" height="50" alt="PLODI Logo">  **[Background](#background)**  **[Loan Dashboard](#dashboard)**  **[Architecture](#architecture)**  **[Modeling](#modeling)**  **[Results](#results)**  **[About Us](#aboutus)**
+**[Background](#background)**  **[Loan Dashboard](#dashboard)**  **[Architecture](#architecture)**  **[Modeling](#modeling)**  **[Results](#results)**  **[About Us](#aboutus)**
+
+<img src="assets/images/image.png" height="50" alt="PLODI Logo">  PLODI uses machine learning modeling to identify fraud risk factors and rank loans disbursed as part of the US Small Business Administration`s Paycheck Protection Program for regulator review.
 
 ## Background {#background}
 
