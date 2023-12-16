@@ -1,7 +1,7 @@
 
 ![alt-text-4](docs/image.png)
-
-## Introduction 
+[Introduction](#introduction)
+## Introduction {#introduction}
 To support businesses during the COVID-19 pandemic, the US Small Business Administration disbursed $1.2T of loans which were backed by the US government. Due to the rapid pace at which these loans were processed many normal risk practices were relaxed and consequently many instances of fraud have been identified with estimates of fraudulent loans ranging from $100B-$200B ([Link here](https://www.sba.gov/document/report-23-09-covid-19-pandemic-eidl-ppp-loan-fraud-landscape)).
 
 In this project, we developed machine learning models to identify potentially fraudulent PPP loans, pinpointed key fraud risk factors, and ranked all loans based on their risk factors. This ranking can guide further development for identification of fraud indicators and investigation priority for regulatory agencies, guidance for loan screening for future loan programs, and supports open access to government spending for journalists and interested public individuals
