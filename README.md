@@ -1,4 +1,4 @@
-**[Background](#background)** \| **[Loan Dashboard](#dashboard)**  **[Architecture](#architecture)**  **[Modeling](#modeling)**  **[Results](#results)**  **[About Us](#aboutus)**
+**[Background](#background)** \| **[Loan Dashboard](#dashboard)** \| **[Architecture](#architecture)** \| **[Data](#data)** \| **[Modeling](#modeling)** \| **[Results](#results)** \| **[About Us](#aboutus)**
 
 ## Background {#background}
 
@@ -31,7 +31,7 @@ We see that suspect loans, those associated with an DOJ case, have a higher aver
 
 ![alt-text-4](assets/images/Pay_Ratio.png)
 
-## Data
+## Data {#data}
 
 Primary Data: 9.1M PPP loans from the SBA ([Link here](https://www.sba.gov/funding-programs/loans/covid-19-relief-options/paycheck-protection-program/ppp-data))
 
