@@ -1,8 +1,8 @@
-***[Background](#background)*** 
-***[Architecture](#architecture)*** 
-***[Modeling](#modeling)*** 
-***[Results](#results)*** 
-***[About Us](#aboutus)***
+**[Background](#background)**
+**[Architecture](#architecture)** 
+**[Modeling](#modeling)** 
+**[Results](#results)** 
+**[About Us](#aboutus)**
 
 ![alt-text-4](docs/image.png)
 
