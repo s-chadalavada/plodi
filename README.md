@@ -1,4 +1,4 @@
-**[Background](#background)** \| **[Loan Dashboard](#dashboard)** \| **[Architecture](#architecture)** \| **[Data](#data)** \| **[Modeling](#modeling)** \| **[Results](#results)** \| **[About Us](#aboutus)**
+**[Background](#background)** \| **[Loan Dashboard](#dashboard)** \| **[Results](#results)** \| **[Data](#data)** \| **[Modeling](#modeling)** \| **[Architecture](#architecture)** \| **[About Us](#aboutus)**
 
 ## Background {#background}
 
