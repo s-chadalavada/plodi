@@ -19,7 +19,7 @@ Github ([Link Here](https://github.com/s-chadalavada/plodi/)), Dashboard Github 
 
 ## Results & Impact {#results}
 
-When using our champion XGBoost model and looking at the most suspicious loans, our model has very strong performance with the top 5-16% of loans getting correctly classified at rates of 98-89% respectively. Given the scale of the PPP loan program and resourcing constraints, machine learning could guide expert review by providing a ranking.
+When using our champion XGBoost model and looking at the most suspicious loans, where we rank loans by top ***n*** and run statistics, our model has very strong performance with the top 5-16% of loans getting correctly classified at rates of 98-89% respectively. Given the scale of the PPP loan program and resourcing constraints, machine learning could guide expert review by providing a ranking.
 
 ![alt-text-4](assets/images/TopN.png)
 
