@@ -43,7 +43,7 @@ We assume a true fraud rate of 8% as estimates range from $70B-$200B1 of the $1.
 Based on the results from our test data, we selected XGBoost as our champion model as it outperformed relative to our other models (see slides linked below for more detail).
 
 ## Architecture
-We leveraged AWS and GCP for data cleaning, modelling, and ranking. We then saved our loan level results to an AWS S3 bucket for our dashbord to easily access. To create our dashboard, we opted for a python based framework called Mercury to query and display our champion model results.
+We leveraged AWS and GCP for data cleaning, modelling, and ranking. We then saved our loan level results to an AWS S3 bucket for our dashbord to easily access. To create our dashboard, we opted for a python based framework called [Mercury](https://runmercury.com/) to query and display our champion model results.
 ![alt-text-4](docs/Arc.png)
 
 ## Acknowledgments
