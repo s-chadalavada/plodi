@@ -1,7 +1,5 @@
 **[Background](#background)**  **[Loan Dashboard](#dashboard)**  **[Architecture](#architecture)**  **[Modeling](#modeling)**  **[Results](#results)**  **[About Us](#aboutus)**
 
-<img src="assets/images/image.png" height="50" alt="PLODI Logo">  PLODI uses machine learning modeling to identify fraud risk factors and rank loans disbursed as part of the US Small Business Administration`s Paycheck Protection Program for regulator review.
-
 ## Background {#background}
 
 To support businesses during the COVID-19 pandemic, the US Small Business Administration disbursed $1.2T of loans which were backed by the US government. Due to the rapid pace at which these loans were processed, many normal risk practices were relaxed, and consequently many instances of fraud have been identified with estimates of fraudulent loans ranging from $100B-$200B ([Link](https://www.sba.gov/document/report-23-09-covid-19-pandemic-eidl-ppp-loan-fraud-landscape)).
